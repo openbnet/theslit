@@ -16,7 +16,7 @@ body, #slider, .wrap, .slide-content {
     position: relative;
 }
 
-.waitlist{background-image: url('images/waitlist.png')}
+.waitlist{background-image: url('../../images/waitlist.png')}
 
 #pulldown-menu{
     /* Rectangle 3 */
@@ -113,7 +113,7 @@ body, #slider, .wrap, .slide-content {
 }
 
 
-.about-page{background-image: url('images/about-page.png')}
+.about-page{background-image: url('../../images/about-page.png')}
 
 #about-desc{
 
@@ -160,7 +160,7 @@ body, #slider, .wrap, .slide-content {
 }
 
 
-.brands-page{background-image: url('images/brands.jpg')}
+.brands-page{background-image: url('../images/brands.jpg')}
 
 #brands-desc {
     position: absolute;
@@ -174,17 +174,17 @@ body, #slider, .wrap, .slide-content {
 
 }
 
-.how-page{background-image: url('images/howpage.jpg')}
-.join-page{background-image: url('images/join-waitlist.png')}
+.how-page{background-image: url('../images/howpage.jpg')}
+.join-page{background-image: url('../images/join-waitlist.png')}
 
-.slide1{background-image: url('images/image1.jpg')}
+.slide1{background-image: url('../images/image1.jpg')}
 
 .slide2{
     position: relative;
     background: #FFFFFF;
 }
 
-.slide3{background-image: url('images/image3.jpg')}
+.slide3{background-image: url('../images/image3.jpg')}
 
 .slide-content{
     display: flex;

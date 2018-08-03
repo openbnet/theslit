@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Slider</title>
+</head>
+<body>
+    <div class="wrap">
+       
+        <div id = "slider">
+            
+            <div class="slide waitlist">
+                <div class="slide-content">
+                        <div id="pulldown-menu"><hr></div>
+                        <div id="waitlist-desc">
+                                <span id="waitlist-text">Get Unlimited Premium Designer Workwear at <strong>$239/month.</strong> Join the waitlist today!</span>
+                                <span id="waitlist-small-text">(Private Customers: Only 50 spots available this month) </span>
+                                <button id="waitlist-email-button"> <span id="waitlist-button-label">Email</span> <span id="waitlist-button-ellipse">&#8594</span></button>
+                            </div>
+                        <button id="button-down">&#8595</button>
+                </div>
+            </div>
+
+            <div class="slide about-page">
+                <div class="slide-content">
+                        <div id="pulldown-menu"><hr></div>
+                        <div id="about-desc">
+                            <table class="about-table about-table-main">
+                                <tr>
+                                    <td class="about-table about-table-heading">Curated Luxury Workwear. </td>
+                                    <td class="about-table about-table-heading">For the Discerning Few. </td> 
+                                    <td class="about-table about-table-heading">Highly Personalised Service. </td>
+                                </tr>
+                                <tr>
+                                        <td class="about-table about-table-desc">100S of selected premium styles, from boardroom jackets to jewellery and classy outfits.</td>
+                                        <td class="about-table about-table-desc">You’ll only find items for more than $500 in our collection. We love high quality premium brands as much as you do. </td>
+                                        <td class="about-table about-table-desc">24/7 customer support, on demand courier services & exclusive 
+                                                member privileges.</td>
+                                       
+                                </tr>
+                            </table>
+
+                        </div>
+                        <button id="button-down">&#8595</button>
+                </div>
+            </div>
+
+            <div class="slide brands-page">
+                <div class="slide-content">
+                        <div id="pulldown-menu"><hr></div>
+                        <div id="brands-desc">
+                        </div>
+                        <button id="button-down">&#8595</button>
+                </div>
+            </div>
+
+            <div class="slide slide1">
+                <div class="slide-content">
+                        <div id="pulldown-menu"><hr></div>
+                        <div id="rectangle-container">
+                                <span id="rectangle-text">Peak Inside The Closet </span>
+                                <button id="button-right">&#8594</button>
+                        </div>
+                        <button id="button-down">&#8595</button>
+                </div>
+            </div>
+
+            <div class="slide slide2">
+                <div class="slide-content">
+                        <div id="pulldown-menu"><hr></div>
+                        <button id="button-left">&#8592</button>
+                        <table class="table-gallery">
+                            <tr> 
+                                <td class="table-gallery-set">Boardroom Chic</td>
+                                <td class="table-item"><img src="images/gal1-1.png" alt="seo-name"></td>  
+                                <td class="table-item"><img src="images/gal1-2.png" alt="seo-name"></td>
+                                <td class="table-item"><img src="images/gal1-3.png" alt="seo-name"></td>
+                                <td class="table-item"><img src="images/gal1-4.png" alt="seo-name"></td>
+                            </tr>
+
+                            <tr> 
+                                <td class="table-gallery-set">Day-To-Night Dazzle</td>
+                                <td class="table-item"><img src="images/gal2-1.png" alt="seo-name"></td>  
+                                <td class="table-item"><img src="images/gal2-2.png" alt="seo-name"></td>
+                                <td class="table-item"><img src="images/gal2-3.png" alt="seo-name"></td>
+                                <td class="table-item"><img src="images/gal2-4.png" alt="seo-name"></td>
+                            </tr>
+                                
+                            <tr> 
+                                <td class="table-gallery-set">Weekend Off-Duty Chic</td>
+                                <td class="table-item"><img src="images/gal3-1.png" alt="seo-name"></td>  
+                                <td class="table-item"><img src="images/gal3-2.png" alt="seo-name"></td>
+                                <td class="table-item"><img src="images/gal3-3.png" alt="seo-name"></td>
+                                <td class="table-item"><img src="images/gal3-4.png" alt="seo-name"></td>
+                            </tr>
+                            
+                        </table>
+                        <button id="button-down">&#8595</button>
+                </div>
+            </div>      
+
+           <div class="slide join-page">
+                <div class="slide-content">
+                        <div id="pulldown-menu"><hr></div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div id = "arrow-right" class="arrow"></div> -->
+
+        <script>
+            // let sliderImages = document.querySelectorAll('.slide'),
+            //     arrowLeft = document.querySelector('#arrow-left'),
+            //     arrowRight = document.querySelector('#button-right'),
+            //     current = 0;
+
+            // function reset() {
+            //     for(let i = 0; i < sliderImages.length; i++){
+            //         sliderImages[i].style.display = 'none';
+            //     }
+            // }
+
+            // //init slider
+            // function startSlide(){
+            //     reset();
+            //     sliderImages[0].style.display = 'block';
+            // }
+            
+            // function slideLeft(){
+            //     reset();
+            //     sliderImages[current - 1].style.display = 'block';
+            // }
+
+            // function slideRight() {
+            //    reset();
+            //    sliderImages[current +1].style.display = 'block';
+            //    current++;
+            // }
+
+            //  arrowLeft.addEventListener('click', function() {
+            //     if(current === 0) {
+            //         current = sliderImages.length;
+            //     }
+            //     slideLeft();
+            // });
+
+            //   arrowRight.addEventListener('click', function() {
+            //     if(current === sliderImages.length -1 ) {
+            //         current = -1
+            //     }
+            //     slideRight();
+            // });
+
+            // startSlide();
+
+        </script>
+    </div>
+</body>
+</html>

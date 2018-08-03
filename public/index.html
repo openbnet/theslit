@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <script src="/socket.io/socket.io.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <div class="wrap">
+       
+                    <div id = "slider">
+                        
+                        <div class="slide waitlist">
+                            <div class="slide-content">
+                                    <div id="pulldown-menu"><hr></div>
+                                    <div id="waitlist-desc">
+                                            <span id="waitlist-text">Get Unlimited Premium Designer Workwear at <strong>$239/month.</strong> Join the waitlist today!</span>
+                                            <span id="waitlist-small-text">(Private Customers: Only 50 spots available this month) </span>
+                                            <button id="waitlist-email-button"> <span id="waitlist-button-label">Email</span> <span id="waitlist-button-ellipse">&#8594</span></button>
+                                        </div>
+                                    <button id="button-down">&#8595</button>
+                            </div>
+                        </div>
+            
+                        <div class="slide about-page">
+                            <div class="slide-content">
+                                    <div id="pulldown-menu"><hr></div>
+                                    <div id="about-desc">
+                                        <table class="about-table about-table-main">
+                                            <tr>
+                                                <td class="about-table about-table-heading">Curated Luxury Workwear. </td>
+                                                <td class="about-table about-table-heading">For the Discerning Few. </td> 
+                                                <td class="about-table about-table-heading">Highly Personalised Service. </td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="about-table about-table-desc">100S of selected premium styles, from boardroom jackets to jewellery and classy outfits.</td>
+                                                    <td class="about-table about-table-desc">You’ll only find items for more than $500 in our collection. We love high quality premium brands as much as you do. </td>
+                                                    <td class="about-table about-table-desc">24/7 customer support, on demand courier services & exclusive 
+                                                            member privileges.</td>
+                                                   
+                                            </tr>
+                                        </table>
+            
+                                    </div>
+                                    <button id="button-down">&#8595</button>
+                            </div>
+                        </div>
+            
+                        <div class="slide brands-page">
+                            <div class="slide-content">
+                                    <div id="pulldown-menu"><hr></div>
+                                    <div id="brands-desc">
+                                        <span id="brands-heading">Luxury Brands We Carry.</span>
+                                        <table id="brands-list">
+                                            <tr>
+                                                <td><img src="/images/balenciaga.png" alt=""></td>
+                                                <td><img src="/images/alex-macqueen.png" alt=""></td>
+                                                <td><img src="/images/givenchy.png" alt=""></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                    <td><img src="/images/gucci.png" alt=""></td>
+                                                    <td><img src="/images/fedi.png" alt=""></td>
+                                                    <td><img src="/images/carolina-hererra.png" alt=""></td>
+                                            </tr>
+                                            <tr>
+                                                    <td><img src="/images/giorgo-armani.png" alt=""></td>
+                                                    <td><img src="/images/altuzarra.png" alt=""></td>
+                                                    <td><img src="/images/ellie-saab.png" alt=""></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <button id="button-down">&#8595</button>
+                            </div>
+                        </div>
+            
+                        <div class="slide how-page">
+                                <div class="slide-content">
+                                        <div id="pulldown-menu"><hr></div>
+                                        <div id = "how-container">
+                                            <span id= "how-it-work">How does it work?</span>
+                                            <table id="how-table">
+                                                <tr>
+                                                    <td class="how-subheader td-col"> 1.Browse The Closet of Curated Designer Wear</td>
+                                                    <td class="how-subheader td-col">2.Ready For Your Next 3 Styles? Swap for New Outfits Whenever </td>
+                                                    <td class="how-subheader td-col">3. Easy Shipping & Professional Drycleaning </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="how-text td-col"> Select 3 items at a time for $239/month. Your order is process and packed immediately. Our next-day courier service delivers your order right to your doorstep at no extra cost! Easy peasy. </td>
+                                                    <td class="how-text td-col"> When you feel you want a change of clothes, pin us on our app and we’ll pick up your current box in return for your next box instantly. You’ll get up to 3 swaps a month. </td>
+                                                    <td class="how-text td-col"> No germs, please. Each piece is dry-cleaned professionally so it’s delivered to you sparkling fresh. Quality checked and assured by our dedicated QC staff. Leave it with us!</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <button id="button-down">&#8595</button>
+                                </div>
+                            </div>
+                
+            
+                        <div class="slide slide1">
+                            <div class="slide-content">
+                                    <div id="pulldown-menu"><hr></div>
+                                    <div id="rectangle-container">
+                                            <span id="rectangle-text">Peak <br> Inside <br> The Closet </span>
+                                            <button id="button-right">&#8594</button>
+                                    </div>
+                                    <button id="button-down">&#8595</button>
+                            </div>
+                        </div>
+            
+                        <div class="slide slide2">
+                            <div class="slide-content">
+                                    <div id="pulldown-menu"><hr></div>
+                                    <button id="button-left">&#8592</button>
+                                    <table class="table-gallery">
+                                        <tr> 
+                                            <td class="table-gallery-set">Boardroom Chic</td>
+                                            <td class="table-item"><img src="../images/gal1-1.png" alt="seo-name"></td>  
+                                            <td class="table-item"><img src="../images/gal1-2.png" alt="seo-name"></td>
+                                            <td class="table-item"><img src="../images/gal1-3.png" alt="seo-name"></td>
+                                            <td class="table-item"><img src="../images/gal1-4.png" alt="seo-name"></td>
+                                        </tr>
+            
+                                        <tr> 
+                                            <td class="table-gallery-set">Day-To-Night Dazzle</td>
+                                            <td class="table-item"><img src="../images/gal2-1.png" alt="seo-name"></td>  
+                                            <td class="table-item"><img src="../images/gal2-2.png" alt="seo-name"></td>
+                                            <td class="table-item"><img src="../images/gal2-3.png" alt="seo-name"></td>
+                                            <td class="table-item"><img src="../images/gal2-4.png" alt="seo-name"></td>
+                                        </tr>
+                                            
+                                        <tr> 
+                                            <td class="table-gallery-set">Weekend Off-Duty Chic</td>
+                                            <td class="table-item"><img src="../images/gal3-1.png" alt="seo-name"></td>  
+                                            <td class="table-item"><img src="../images/gal3-2.png" alt="seo-name"></td>
+                                            <td class="table-item"><img src="../images/gal3-3.png" alt="seo-name"></td>
+                                            <td class="table-item"><img src="../images/gal3-4.png" alt="seo-name"></td>
+                                        </tr>
+                                        
+                                    </table>
+                                    <button id="button-down">&#8595</button>
+                            </div>
+                        </div>      
+            
+                       <div class="slide join-page">
+                            <div class="slide-content">
+                                    <div id="pulldown-menu"><hr></div>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <!-- <div id = "arrow-right" class="arrow"></div> -->
+            
+                    <script>
+                        // let slider../images = document.querySelectorAll('.slide'),
+                        //     arrowLeft = document.querySelector('#arrow-left'),
+                        //     arrowRight = document.querySelector('#button-right'),
+                        //     current = 0;
+            
+                        // function reset() {
+                        //     for(let i = 0; i < slider../images.length; i++){
+                        //         slider../images[i].style.display = 'none';
+                        //     }
+                        // }
+            
+                        // //init slider
+                        // function startSlide(){
+                        //     reset();
+                        //     slider../images[0].style.display = 'block';
+                        // }
+                        
+                        // function slideLeft(){
+                        //     reset();
+                        //     slider../images[current - 1].style.display = 'block';
+                        // }
+            
+                        // function slideRight() {
+                        //    reset();
+                        //    slider../images[current +1].style.display = 'block';
+                        //    current++;
+                        // }
+            
+                        //  arrowLeft.addEventListener('click', function() {
+                        //     if(current === 0) {
+                        //         current = slider../images.length;
+                        //     }
+                        //     slideLeft();
+                        // });
+            
+                        //   arrowRight.addEventListener('click', function() {
+                        //     if(current === slider../images.length -1 ) {
+                        //         current = -1
+                        //     }
+                        //     slideRight();
+                        // });
+            
+                        // startSlide();
+            
+                    </script>
+                </div>
+<!--         
+        <div id="___gatsby">
+        </div>
+        <script src="/commons.js">
+        </script> -->
+    </body>
+</html>

@@ -47,7 +47,7 @@ body, #slider, .wrap, .slide-content {
     left: 25%;
     top:20%;
     right: 25%;
-    line-height: 35px;
+    line-height: 1.1em;
     font-size: 40px;
     letter-spacing: 0.4375px;
     color: #FFFFFF;
@@ -178,15 +178,21 @@ body, #slider, .wrap, .slide-content {
     text-align: left;
     position: absolute;
     left: 15.71%;
-    right: 25.03%;
+    right: 15.03%;
     top: 12.43%;
     bottom: 58.43%;
-    line-height: 55px;
-    font-size: 55px;
+    line-height: 1.25em;
+    font-size: 65px;
     letter-spacing: 0.4375px;
-    line-height: 1.5em;
     color: #FFFFFF;
+}
 
+#brands-list{
+    position: absolute;
+    top: 45.43%;
+    left: 15.71%;
+    width: 65%;
+    text-align: left;
 }
 
 
@@ -266,14 +272,13 @@ body, #slider, .wrap, .slide-content {
 #rectangle-text{
 
     position: absolute;
-    left: 20.18%;
+    left: 15.18%;
     right: 50.42%;
     top: 20.86%;
     bottom: 20.57%;
-    
-    font-family: TT Norms;
-    line-height: 55px;
-    font-size: 55px;
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 60px;
     letter-spacing: 0.4375px;
     
     color: #FFFFFF;

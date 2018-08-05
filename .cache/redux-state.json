@@ -1,0 +1,3889 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/JEZRIEL/Desktop/activ/theslit/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/JEZRIEL/Desktop/activ/theslit/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "009a00dc2a7b11f8606ef514b437bd4f",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "53a02a08511140075287911a20bf3f30",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "869c9ff23015eac409875571675b75a3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "739ebc50d0f4711a01e20e05c7484de4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "925ac996d0b1432528139aed4149ec2e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d2536d75e02346450309bed4900ef4f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5da855b082fe079536c10ef91740874d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 630,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.37",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "31e1d63aade4bb9b06c00c82f1f31397",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 630,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d56e71f751b24d0f40301d102071f3b0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.37",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.37",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4c569b2ac2c1691b65ec1d9ce4038a9a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4ec8316566f38c47b93ecbd8b4415474",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "53c2fdfdd41d61959ca53e1751414744",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "605089e2877318aa56a5b2be1d83e2c0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0076154ae66aee30ba659e7bee78fdd7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "b873b257fac071dda39857ad1de01be4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit",
+      "packageJson": {
+        "name": "gatsby-starter-photon",
+        "description": "Gatsby Starter - Photon",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Hunter Chang",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.243"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.42"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.25"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.41"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.30"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.60"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.27"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.39"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.22"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.5"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9f59cec2508703250eba4caa70421714",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/JEZRIEL/Desktop/activ/theslit/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/JEZRIEL/Desktop/activ/theslit/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "14f8727afbaae101412913c66926df54",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "The Slit",
+        "author": "Jez Bajan",
+        "description": "A Gatsby.js Starter based on Photon by HTML5 UP"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-05T22:55:17.164Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "eb824e0aae1f98a5de49123e070c97c7",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8991008240f41b5fe2cb232fd382025a",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-08-01T07:02:18.740Z",
+      "accessTime": "2018-08-05T22:55:22.684Z",
+      "changeTime": "2018-08-05T22:53:10.680Z",
+      "birthTime": "2018-08-01T07:02:18.734Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769600,
+      "blocks": 0,
+      "atimeMs": 1533509722684.4543,
+      "mtimeMs": 1533106938739.922,
+      "ctimeMs": 1533509590679.5862,
+      "birthtimeMs": 1533106938733.7134,
+      "atime": "2018-08-05T22:55:22.684Z",
+      "mtime": "2018-08-01T07:02:18.740Z",
+      "ctime": "2018-08-05T22:53:10.680Z",
+      "birthtime": "2018-08-01T07:02:18.734Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0ce2cf3f7475c4aa40803a165e937281",
+        "type": "Directory",
+        "description": "Directory \"src/posts/hi-folks\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks",
+      "relativePath": "hi-folks",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-08-01T07:02:18.739Z",
+      "accessTime": "2018-08-05T22:55:22.687Z",
+      "changeTime": "2018-08-05T22:53:10.676Z",
+      "birthTime": "2018-08-01T07:02:18.739Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts",
+      "base": "hi-folks",
+      "ext": "",
+      "name": "hi-folks",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769604,
+      "blocks": 0,
+      "atimeMs": 1533509722686.8267,
+      "mtimeMs": 1533106938739.424,
+      "ctimeMs": 1533509590675.5044,
+      "birthtimeMs": 1533106938739.185,
+      "atime": "2018-08-05T22:55:22.687Z",
+      "mtime": "2018-08-01T07:02:18.739Z",
+      "ctime": "2018-08-05T22:53:10.676Z",
+      "birthtime": "2018-08-01T07:02:18.739Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "40bf7be0568fd201a5e5605a05350fbb",
+        "type": "Directory",
+        "description": "Directory \"src/posts/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-01T07:02:18.734Z",
+      "accessTime": "2018-08-05T22:55:22.687Z",
+      "changeTime": "2018-08-05T22:53:10.672Z",
+      "birthTime": "2018-08-01T07:02:18.734Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769601,
+      "blocks": 0,
+      "atimeMs": 1533509722686.8206,
+      "mtimeMs": 1533106938734.3745,
+      "ctimeMs": 1533509590672.4934,
+      "birthtimeMs": 1533106938733.8022,
+      "atime": "2018-08-05T22:55:22.687Z",
+      "mtime": "2018-08-01T07:02:18.734Z",
+      "ctime": "2018-08-05T22:53:10.672Z",
+      "birthtime": "2018-08-01T07:02:18.734Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "26d68f56afc5f948eafbe764c6751553",
+        "type": "Directory",
+        "description": "Directory \"src/posts/my-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post",
+      "relativePath": "my-second-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-08-01T07:02:18.740Z",
+      "accessTime": "2018-08-05T22:55:22.687Z",
+      "changeTime": "2018-08-05T22:53:10.679Z",
+      "birthTime": "2018-08-01T07:02:18.740Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts",
+      "base": "my-second-post",
+      "ext": "",
+      "name": "my-second-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769606,
+      "blocks": 0,
+      "atimeMs": 1533509722686.776,
+      "mtimeMs": 1533106938740.0234,
+      "ctimeMs": 1533509590679.4446,
+      "birthtimeMs": 1533106938739.9119,
+      "atime": "2018-08-05T22:55:22.687Z",
+      "mtime": "2018-08-01T07:02:18.740Z",
+      "ctime": "2018-08-05T22:53:10.679Z",
+      "birthtime": "2018-08-01T07:02:18.740Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fef193964fc7c139bea1d17dad270f09",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/my-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md",
+      "relativePath": "my-second-post/index.md",
+      "extension": "md",
+      "size": 403,
+      "prettySize": "403 B",
+      "modifiedTime": "2018-08-01T07:02:18.740Z",
+      "accessTime": "2018-08-05T22:54:57.060Z",
+      "changeTime": "2018-08-05T22:53:10.679Z",
+      "birthTime": "2018-08-01T07:02:18.740Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "my-second-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769607,
+      "blocks": 8,
+      "atimeMs": 1533509697059.6826,
+      "mtimeMs": 1533106938740.2454,
+      "ctimeMs": 1533509590678.9702,
+      "birthtimeMs": 1533106938740.0085,
+      "atime": "2018-08-05T22:54:57.060Z",
+      "mtime": "2018-08-01T07:02:18.740Z",
+      "ctime": "2018-08-05T22:53:10.679Z",
+      "birthtime": "2018-08-01T07:02:18.740Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/hello-world/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 866,
+      "prettySize": "866 B",
+      "modifiedTime": "2018-08-01T07:02:18.734Z",
+      "accessTime": "2018-08-05T22:54:57.060Z",
+      "changeTime": "2018-08-05T22:53:10.671Z",
+      "birthTime": "2018-08-01T07:02:18.734Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769602,
+      "blocks": 8,
+      "atimeMs": 1533509697059.6475,
+      "mtimeMs": 1533106938734.1394,
+      "ctimeMs": 1533509590670.5786,
+      "birthtimeMs": 1533106938733.9094,
+      "atime": "2018-08-05T22:54:57.060Z",
+      "mtime": "2018-08-01T07:02:18.734Z",
+      "ctime": "2018-08-05T22:53:10.671Z",
+      "birthtime": "2018-08-01T07:02:18.734Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/hi-folks/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5495,
+      "prettySize": "5.5 kB",
+      "modifiedTime": "2018-08-01T07:02:18.740Z",
+      "accessTime": "2018-08-05T22:54:57.060Z",
+      "changeTime": "2018-08-05T22:53:10.675Z",
+      "birthTime": "2018-08-01T07:02:18.739Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769605,
+      "blocks": 16,
+      "atimeMs": 1533509697059.6687,
+      "mtimeMs": 1533106938739.7046,
+      "ctimeMs": 1533509590675.4026,
+      "birthtimeMs": 1533106938739.4143,
+      "atime": "2018-08-05T22:54:57.060Z",
+      "mtime": "2018-08-01T07:02:18.740Z",
+      "ctime": "2018-08-05T22:53:10.675Z",
+      "birthtime": "2018-08-01T07:02:18.739Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\npath: \"/my-second-post/\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "bebf23e117ae6f958f616bb4d2590f18",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z",
+        "path": "/my-second-post/",
+        "_PARENT": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file",
+        "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+      "fileAbsolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5ac8e11585186c990a0064bb951c67f1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z",
+        "path": "/hello-world/",
+        "_PARENT": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file",
+        "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\npath: \"/hi-folks/\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6735b431899f92e9e468f7f19eb2bc43",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "path": "/hi-folks/",
+        "_PARENT": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file",
+        "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+      "fileAbsolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/posts/hello-world/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-08-01T07:02:18.739Z",
+      "accessTime": "2018-08-05T22:54:57.060Z",
+      "changeTime": "2018-08-05T22:53:10.672Z",
+      "birthTime": "2018-08-01T07:02:18.734Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769603,
+      "blocks": 1344,
+      "atimeMs": 1533509697059.6553,
+      "mtimeMs": 1533106938738.548,
+      "ctimeMs": 1533509590672.3928,
+      "birthtimeMs": 1533106938734.3643,
+      "atime": "2018-08-05T22:54:57.060Z",
+      "mtime": "2018-08-01T07:02:18.739Z",
+      "ctime": "2018-08-05T22:53:10.672Z",
+      "birthtime": "2018-08-01T07:02:18.734Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "09dad9603cd3520fcb3e89cf3ec6e677",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 1312,
+      "prettySize": "1.31 kB",
+      "modifiedTime": "2018-08-03T06:49:50.465Z",
+      "accessTime": "2018-08-05T22:55:22.752Z",
+      "changeTime": "2018-08-05T22:53:10.806Z",
+      "birthTime": "2018-08-01T07:02:18.720Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 41,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769620,
+      "blocks": 0,
+      "atimeMs": 1533509722751.7114,
+      "mtimeMs": 1533278990464.5222,
+      "ctimeMs": 1533509590806.073,
+      "birthtimeMs": 1533106938719.98,
+      "atime": "2018-08-05T22:55:22.752Z",
+      "mtime": "2018-08-03T06:49:50.465Z",
+      "ctime": "2018-08-05T22:53:10.806Z",
+      "birthtime": "2018-08-01T07:02:18.720Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "34641a18d24eae5a2187e8d208862dfa",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/altuzarra.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png",
+      "relativePath": "altuzarra.png",
+      "extension": "png",
+      "size": 1850,
+      "prettySize": "1.85 kB",
+      "modifiedTime": "2018-08-03T06:49:49.506Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.788Z",
+      "birthTime": "2018-08-03T06:49:49.505Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "altuzarra.png",
+      "ext": ".png",
+      "name": "altuzarra",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769651,
+      "blocks": 8,
+      "atimeMs": 1533509697059.2612,
+      "mtimeMs": 1533278989506.064,
+      "ctimeMs": 1533509590787.945,
+      "birthtimeMs": 1533278989504.8887,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.506Z",
+      "ctime": "2018-08-05T22:53:10.788Z",
+      "birthtime": "2018-08-03T06:49:49.505Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "06181c0839c1f87d922082dfece7993a",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/alex-macqueen.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png",
+      "relativePath": "alex-macqueen.png",
+      "extension": "png",
+      "size": 2987,
+      "prettySize": "2.99 kB",
+      "modifiedTime": "2018-08-03T06:49:49.478Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.723Z",
+      "birthTime": "2018-08-03T06:49:49.473Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "alex-macqueen.png",
+      "ext": ".png",
+      "name": "alex-macqueen",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769625,
+      "blocks": 8,
+      "atimeMs": 1533509697059.255,
+      "mtimeMs": 1533278989478.2908,
+      "ctimeMs": 1533509590723.1438,
+      "birthtimeMs": 1533278989473.2817,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.478Z",
+      "ctime": "2018-08-05T22:53:10.723Z",
+      "birthtime": "2018-08-03T06:49:49.473Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ebd194646595c412e30247783deff813",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/balenciaga.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png",
+      "relativePath": "balenciaga.png",
+      "extension": "png",
+      "size": 1340,
+      "prettySize": "1.34 kB",
+      "modifiedTime": "2018-08-03T06:49:49.536Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.806Z",
+      "birthTime": "2018-08-03T06:49:49.535Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "balenciaga.png",
+      "ext": ".png",
+      "name": "balenciaga",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769659,
+      "blocks": 8,
+      "atimeMs": 1533509697059.2683,
+      "mtimeMs": 1533278989536.4639,
+      "ctimeMs": 1533509590805.965,
+      "birthtimeMs": 1533278989535.379,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.536Z",
+      "ctime": "2018-08-05T22:53:10.806Z",
+      "birthtime": "2018-08-03T06:49:49.535Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9b8ccc77e849d084fb9b5db62cbb12db",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/carolina-hererra.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png",
+      "relativePath": "carolina-hererra.png",
+      "extension": "png",
+      "size": 3049,
+      "prettySize": "3.05 kB",
+      "modifiedTime": "2018-08-03T06:49:49.589Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.777Z",
+      "birthTime": "2018-08-03T06:49:49.589Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "carolina-hererra.png",
+      "ext": ".png",
+      "name": "carolina-hererra",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769647,
+      "blocks": 8,
+      "atimeMs": 1533509697059.284,
+      "mtimeMs": 1533278989589.3997,
+      "ctimeMs": 1533509590776.7634,
+      "birthtimeMs": 1533278989588.7292,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.589Z",
+      "ctime": "2018-08-05T22:53:10.777Z",
+      "birthtime": "2018-08-03T06:49:49.589Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3256d2208e51528db67586c9857c755f",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/ellie-saab.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png",
+      "relativePath": "ellie-saab.png",
+      "extension": "png",
+      "size": 1469,
+      "prettySize": "1.47 kB",
+      "modifiedTime": "2018-08-03T06:49:49.616Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.722Z",
+      "birthTime": "2018-08-03T06:49:49.615Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "ellie-saab.png",
+      "ext": ".png",
+      "name": "ellie-saab",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769624,
+      "blocks": 8,
+      "atimeMs": 1533509697059.292,
+      "mtimeMs": 1533278989616.083,
+      "ctimeMs": 1533509590721.6047,
+      "birthtimeMs": 1533278989614.8284,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.616Z",
+      "ctime": "2018-08-05T22:53:10.722Z",
+      "birthtime": "2018-08-03T06:49:49.615Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "037af5c7b4d9c9901897f529e842e371",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/fedi.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png",
+      "relativePath": "fedi.png",
+      "extension": "png",
+      "size": 1577,
+      "prettySize": "1.58 kB",
+      "modifiedTime": "2018-08-03T06:49:49.646Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.793Z",
+      "birthTime": "2018-08-03T06:49:49.645Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "fedi.png",
+      "ext": ".png",
+      "name": "fedi",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769653,
+      "blocks": 8,
+      "atimeMs": 1533509697059.298,
+      "mtimeMs": 1533278989646.2449,
+      "ctimeMs": 1533509590792.8118,
+      "birthtimeMs": 1533278989645.4883,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.646Z",
+      "ctime": "2018-08-05T22:53:10.793Z",
+      "birthtime": "2018-08-03T06:49:49.645Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "96dd6f078d133e55f54842fa45f76f3e",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal1-1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png",
+      "relativePath": "gal1-1.png",
+      "extension": "png",
+      "size": 17974,
+      "prettySize": "18 kB",
+      "modifiedTime": "2018-08-03T06:49:49.705Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.774Z",
+      "birthTime": "2018-08-03T06:49:49.701Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal1-1.png",
+      "ext": ".png",
+      "name": "gal1-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769646,
+      "blocks": 40,
+      "atimeMs": 1533509697059.3044,
+      "mtimeMs": 1533278989704.5293,
+      "ctimeMs": 1533509590773.9644,
+      "birthtimeMs": 1533278989701.422,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.705Z",
+      "ctime": "2018-08-05T22:53:10.774Z",
+      "birthtime": "2018-08-03T06:49:49.701Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ea7c05eb104d3c5f61a88c5fb4d4eb54",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal1-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png",
+      "relativePath": "gal1-2.png",
+      "extension": "png",
+      "size": 13770,
+      "prettySize": "13.8 kB",
+      "modifiedTime": "2018-08-03T06:49:49.737Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.762Z",
+      "birthTime": "2018-08-03T06:49:49.736Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal1-2.png",
+      "ext": ".png",
+      "name": "gal1-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769641,
+      "blocks": 32,
+      "atimeMs": 1533509697059.311,
+      "mtimeMs": 1533278989737.0708,
+      "ctimeMs": 1533509590761.905,
+      "birthtimeMs": 1533278989736.2468,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.737Z",
+      "ctime": "2018-08-05T22:53:10.762Z",
+      "birthtime": "2018-08-03T06:49:49.736Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ec1c841f4b7583f721a73dcd0e4621c6",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal1-3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png",
+      "relativePath": "gal1-3.png",
+      "extension": "png",
+      "size": 13239,
+      "prettySize": "13.2 kB",
+      "modifiedTime": "2018-08-03T06:49:49.764Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.759Z",
+      "birthTime": "2018-08-03T06:49:49.763Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal1-3.png",
+      "ext": ".png",
+      "name": "gal1-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769639,
+      "blocks": 32,
+      "atimeMs": 1533509697059.3188,
+      "mtimeMs": 1533278989764.309,
+      "ctimeMs": 1533509590758.6733,
+      "birthtimeMs": 1533278989763.239,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.764Z",
+      "ctime": "2018-08-05T22:53:10.759Z",
+      "birthtime": "2018-08-03T06:49:49.763Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a4f95be2a04b4fc3905b5065dd400fb7",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal1-4.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png",
+      "relativePath": "gal1-4.png",
+      "extension": "png",
+      "size": 12511,
+      "prettySize": "12.5 kB",
+      "modifiedTime": "2018-08-03T06:49:49.793Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.781Z",
+      "birthTime": "2018-08-03T06:49:49.792Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal1-4.png",
+      "ext": ".png",
+      "name": "gal1-4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769649,
+      "blocks": 32,
+      "atimeMs": 1533509697059.3276,
+      "mtimeMs": 1533278989792.669,
+      "ctimeMs": 1533509590780.9424,
+      "birthtimeMs": 1533278989791.5989,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.793Z",
+      "ctime": "2018-08-05T22:53:10.781Z",
+      "birthtime": "2018-08-03T06:49:49.792Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6cb0ae90e4856588de3153f625d405b4",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal2-1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png",
+      "relativePath": "gal2-1.png",
+      "extension": "png",
+      "size": 11935,
+      "prettySize": "11.9 kB",
+      "modifiedTime": "2018-08-03T06:49:49.821Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.795Z",
+      "birthTime": "2018-08-03T06:49:49.819Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal2-1.png",
+      "ext": ".png",
+      "name": "gal2-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769655,
+      "blocks": 24,
+      "atimeMs": 1533509697059.3342,
+      "mtimeMs": 1533278989820.56,
+      "ctimeMs": 1533509590795.3818,
+      "birthtimeMs": 1533278989818.7107,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.821Z",
+      "ctime": "2018-08-05T22:53:10.795Z",
+      "birthtime": "2018-08-03T06:49:49.819Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "214c928ad865cf2152efc845661d0270",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal2-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png",
+      "relativePath": "gal2-2.png",
+      "extension": "png",
+      "size": 14959,
+      "prettySize": "15 kB",
+      "modifiedTime": "2018-08-03T06:49:49.852Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.789Z",
+      "birthTime": "2018-08-03T06:49:49.850Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal2-2.png",
+      "ext": ".png",
+      "name": "gal2-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769652,
+      "blocks": 32,
+      "atimeMs": 1533509697059.3408,
+      "mtimeMs": 1533278989852.365,
+      "ctimeMs": 1533509590788.7178,
+      "birthtimeMs": 1533278989850.4524,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.852Z",
+      "ctime": "2018-08-05T22:53:10.789Z",
+      "birthtime": "2018-08-03T06:49:49.850Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4911f1db0a354cfaf5b29a64cff9dafa",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal2-3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png",
+      "relativePath": "gal2-3.png",
+      "extension": "png",
+      "size": 10451,
+      "prettySize": "10.5 kB",
+      "modifiedTime": "2018-08-03T06:49:49.901Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.794Z",
+      "birthTime": "2018-08-03T06:49:49.897Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal2-3.png",
+      "ext": ".png",
+      "name": "gal2-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769654,
+      "blocks": 24,
+      "atimeMs": 1533509697059.3477,
+      "mtimeMs": 1533278989900.591,
+      "ctimeMs": 1533509590794.3967,
+      "birthtimeMs": 1533278989896.6775,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.901Z",
+      "ctime": "2018-08-05T22:53:10.794Z",
+      "birthtime": "2018-08-03T06:49:49.897Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a927613946cd6fa1c385cfb55c3a6fbb",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal3-1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png",
+      "relativePath": "gal3-1.png",
+      "extension": "png",
+      "size": 13583,
+      "prettySize": "13.6 kB",
+      "modifiedTime": "2018-08-03T06:49:49.987Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.760Z",
+      "birthTime": "2018-08-03T06:49:49.984Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal3-1.png",
+      "ext": ".png",
+      "name": "gal3-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769640,
+      "blocks": 32,
+      "atimeMs": 1533509697059.3625,
+      "mtimeMs": 1533278989986.7244,
+      "ctimeMs": 1533509590760.4934,
+      "birthtimeMs": 1533278989984.1272,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.987Z",
+      "ctime": "2018-08-05T22:53:10.760Z",
+      "birthtime": "2018-08-03T06:49:49.984Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f9da98a93a051fe960151c8c03b3ab90",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal2-4.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png",
+      "relativePath": "gal2-4.png",
+      "extension": "png",
+      "size": 9355,
+      "prettySize": "9.36 kB",
+      "modifiedTime": "2018-08-03T06:49:49.951Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.799Z",
+      "birthTime": "2018-08-03T06:49:49.946Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal2-4.png",
+      "ext": ".png",
+      "name": "gal2-4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769657,
+      "blocks": 24,
+      "atimeMs": 1533509697059.3547,
+      "mtimeMs": 1533278989951.0837,
+      "ctimeMs": 1533509590799.398,
+      "birthtimeMs": 1533278989945.774,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.951Z",
+      "ctime": "2018-08-05T22:53:10.799Z",
+      "birthtime": "2018-08-03T06:49:49.946Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f1b3d6e23a6783d2b9edb3f37955fd55",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal3-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png",
+      "relativePath": "gal3-2.png",
+      "extension": "png",
+      "size": 20990,
+      "prettySize": "21 kB",
+      "modifiedTime": "2018-08-03T06:49:50.016Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.770Z",
+      "birthTime": "2018-08-03T06:49:50.014Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal3-2.png",
+      "ext": ".png",
+      "name": "gal3-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769643,
+      "blocks": 48,
+      "atimeMs": 1533509697059.3699,
+      "mtimeMs": 1533278990016.0056,
+      "ctimeMs": 1533509590769.5908,
+      "birthtimeMs": 1533278990013.6738,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.016Z",
+      "ctime": "2018-08-05T22:53:10.770Z",
+      "birthtime": "2018-08-03T06:49:50.014Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2e894a25e7f1609aae7b00780c260d98",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal3-4.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png",
+      "relativePath": "gal3-4.png",
+      "extension": "png",
+      "size": 15676,
+      "prettySize": "15.7 kB",
+      "modifiedTime": "2018-08-03T06:49:50.095Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.782Z",
+      "birthTime": "2018-08-03T06:49:50.094Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal3-4.png",
+      "ext": ".png",
+      "name": "gal3-4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769650,
+      "blocks": 32,
+      "atimeMs": 1533509697059.385,
+      "mtimeMs": 1533278990094.912,
+      "ctimeMs": 1533509590781.882,
+      "birthtimeMs": 1533278990093.5632,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.095Z",
+      "ctime": "2018-08-05T22:53:10.782Z",
+      "birthtime": "2018-08-03T06:49:50.094Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2f1f4ce5dec78054ed8544d53e42a85a",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gal3-3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png",
+      "relativePath": "gal3-3.png",
+      "extension": "png",
+      "size": 29859,
+      "prettySize": "29.9 kB",
+      "modifiedTime": "2018-08-03T06:49:50.047Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.773Z",
+      "birthTime": "2018-08-03T06:49:50.043Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gal3-3.png",
+      "ext": ".png",
+      "name": "gal3-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769645,
+      "blocks": 64,
+      "atimeMs": 1533509697059.3765,
+      "mtimeMs": 1533278990047.4172,
+      "ctimeMs": 1533509590772.6262,
+      "birthtimeMs": 1533278990043.45,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.047Z",
+      "ctime": "2018-08-05T22:53:10.773Z",
+      "birthtime": "2018-08-03T06:49:50.043Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "99e92229be586c25940530f20fa54166",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/giorgo-armani.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png",
+      "relativePath": "giorgo-armani.png",
+      "extension": "png",
+      "size": 2076,
+      "prettySize": "2.08 kB",
+      "modifiedTime": "2018-08-03T06:49:50.126Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.779Z",
+      "birthTime": "2018-08-03T06:49:50.122Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "giorgo-armani.png",
+      "ext": ".png",
+      "name": "giorgo-armani",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769648,
+      "blocks": 8,
+      "atimeMs": 1533509697059.392,
+      "mtimeMs": 1533278990125.6433,
+      "ctimeMs": 1533509590779.3857,
+      "birthtimeMs": 1533278990122.0923,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.126Z",
+      "ctime": "2018-08-05T22:53:10.779Z",
+      "birthtime": "2018-08-03T06:49:50.122Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d391920d684a444bfa1e3e713c5b7ce9",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/givenchy.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png",
+      "relativePath": "givenchy.png",
+      "extension": "png",
+      "size": 1079,
+      "prettySize": "1.08 kB",
+      "modifiedTime": "2018-08-03T06:49:50.160Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.729Z",
+      "birthTime": "2018-08-03T06:49:50.156Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "givenchy.png",
+      "ext": ".png",
+      "name": "givenchy",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769627,
+      "blocks": 8,
+      "atimeMs": 1533509697059.3994,
+      "mtimeMs": 1533278990159.972,
+      "ctimeMs": 1533509590729.4841,
+      "birthtimeMs": 1533278990156.4001,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.160Z",
+      "ctime": "2018-08-05T22:53:10.729Z",
+      "birthtime": "2018-08-03T06:49:50.156Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9388ceb60afc57d4f79478ed692b2998",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/gucci.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png",
+      "relativePath": "gucci.png",
+      "extension": "png",
+      "size": 3202,
+      "prettySize": "3.2 kB",
+      "modifiedTime": "2018-08-03T06:49:50.222Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.711Z",
+      "birthTime": "2018-08-03T06:49:50.214Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "gucci.png",
+      "ext": ".png",
+      "name": "gucci",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769621,
+      "blocks": 8,
+      "atimeMs": 1533509697059.4065,
+      "mtimeMs": 1533278990222.1646,
+      "ctimeMs": 1533509590711.048,
+      "birthtimeMs": 1533278990214.3828,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.222Z",
+      "ctime": "2018-08-05T22:53:10.711Z",
+      "birthtime": "2018-08-03T06:49:50.214Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b960068458fc2e88f91cd1ae23b9c182",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png",
+      "relativePath": "overlay1.png",
+      "extension": "png",
+      "size": 1987,
+      "prettySize": "1.99 kB",
+      "modifiedTime": "2018-08-01T07:02:18.721Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.731Z",
+      "birthTime": "2018-08-01T07:02:18.721Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "overlay1.png",
+      "ext": ".png",
+      "name": "overlay1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769628,
+      "blocks": 8,
+      "atimeMs": 1533509697059.4402,
+      "mtimeMs": 1533106938721.3591,
+      "ctimeMs": 1533509590730.6445,
+      "birthtimeMs": 1533106938721.2056,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.721Z",
+      "ctime": "2018-08-05T22:53:10.731Z",
+      "birthtime": "2018-08-01T07:02:18.721Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay3.svg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay3.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "22514a523d857a434a117146186da72b",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay3.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay3.svg",
+      "relativePath": "overlay3.svg",
+      "extension": "svg",
+      "size": 1155,
+      "prettySize": "1.16 kB",
+      "modifiedTime": "2018-08-01T07:02:18.722Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.740Z",
+      "birthTime": "2018-08-01T07:02:18.722Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "overlay3.svg",
+      "ext": ".svg",
+      "name": "overlay3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769631,
+      "blocks": 8,
+      "atimeMs": 1533509697059.4536,
+      "mtimeMs": 1533106938721.906,
+      "ctimeMs": 1533509590740.0325,
+      "birthtimeMs": 1533106938721.7556,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.722Z",
+      "ctime": "2018-08-05T22:53:10.740Z",
+      "birthtime": "2018-08-01T07:02:18.722Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "db108b3b0d81ecfab7c9f47f9e490c3c",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png",
+      "relativePath": "overlay2.png",
+      "extension": "png",
+      "size": 2676,
+      "prettySize": "2.68 kB",
+      "modifiedTime": "2018-08-01T07:02:18.722Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.728Z",
+      "birthTime": "2018-08-01T07:02:18.721Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "overlay2.png",
+      "ext": ".png",
+      "name": "overlay2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769626,
+      "blocks": 8,
+      "atimeMs": 1533509697059.4463,
+      "mtimeMs": 1533106938721.6448,
+      "ctimeMs": 1533509590728.217,
+      "birthtimeMs": 1533106938721.489,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.722Z",
+      "ctime": "2018-08-05T22:53:10.728Z",
+      "birthtime": "2018-08-01T07:02:18.721Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay4.svg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay4.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6133505efaee835a6930fc4ce0f283fe",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay4.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay4.svg",
+      "relativePath": "overlay4.svg",
+      "extension": "svg",
+      "size": 1155,
+      "prettySize": "1.16 kB",
+      "modifiedTime": "2018-08-01T07:02:18.722Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.751Z",
+      "birthTime": "2018-08-01T07:02:18.722Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "overlay4.svg",
+      "ext": ".svg",
+      "name": "overlay4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769636,
+      "blocks": 8,
+      "atimeMs": 1533509697059.4607,
+      "mtimeMs": 1533106938722.275,
+      "ctimeMs": 1533509590750.6487,
+      "birthtimeMs": 1533106938722.0776,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.722Z",
+      "ctime": "2018-08-05T22:53:10.751Z",
+      "birthtime": "2018-08-01T07:02:18.722Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6a4b7086fbd8da14f9de2389ba0b7058",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg",
+      "relativePath": "pic01.jpg",
+      "extension": "jpg",
+      "size": 9213,
+      "prettySize": "9.21 kB",
+      "modifiedTime": "2018-08-01T07:02:18.723Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.744Z",
+      "birthTime": "2018-08-01T07:02:18.722Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "pic01.jpg",
+      "ext": ".jpg",
+      "name": "pic01",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769633,
+      "blocks": 24,
+      "atimeMs": 1533509697059.4683,
+      "mtimeMs": 1533106938722.7222,
+      "ctimeMs": 1533509590744.2275,
+      "birthtimeMs": 1533106938722.414,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.723Z",
+      "ctime": "2018-08-05T22:53:10.744Z",
+      "birthtime": "2018-08-01T07:02:18.722Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f4331617feccb90bdf83ab44479f76d6",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic03.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg",
+      "relativePath": "pic03.jpg",
+      "extension": "jpg",
+      "size": 5305,
+      "prettySize": "5.3 kB",
+      "modifiedTime": "2018-08-01T07:02:18.724Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.754Z",
+      "birthTime": "2018-08-01T07:02:18.723Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "pic03.jpg",
+      "ext": ".jpg",
+      "name": "pic03",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769637,
+      "blocks": 16,
+      "atimeMs": 1533509697059.4817,
+      "mtimeMs": 1533106938723.6865,
+      "ctimeMs": 1533509590753.679,
+      "birthtimeMs": 1533106938723.4023,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.724Z",
+      "ctime": "2018-08-05T22:53:10.754Z",
+      "birthtime": "2018-08-01T07:02:18.723Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "401163253acfe21c1c020dfc484c30a0",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic02.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg",
+      "relativePath": "pic02.jpg",
+      "extension": "jpg",
+      "size": 4732,
+      "prettySize": "4.73 kB",
+      "modifiedTime": "2018-08-01T07:02:18.723Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.748Z",
+      "birthTime": "2018-08-01T07:02:18.723Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "pic02.jpg",
+      "ext": ".jpg",
+      "name": "pic02",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769635,
+      "blocks": 16,
+      "atimeMs": 1533509697059.4753,
+      "mtimeMs": 1533106938723.1895,
+      "ctimeMs": 1533509590747.8655,
+      "birthtimeMs": 1533106938722.9255,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.723Z",
+      "ctime": "2018-08-05T22:53:10.748Z",
+      "birthtime": "2018-08-01T07:02:18.723Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0794cb033b83373c2ae7727d150f4eee",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg",
+      "relativePath": "pic04.jpg",
+      "extension": "jpg",
+      "size": 4851,
+      "prettySize": "4.85 kB",
+      "modifiedTime": "2018-08-01T07:02:18.725Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.738Z",
+      "birthTime": "2018-08-01T07:02:18.724Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "pic04.jpg",
+      "ext": ".jpg",
+      "name": "pic04",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769630,
+      "blocks": 16,
+      "atimeMs": 1533509697059.4885,
+      "mtimeMs": 1533106938724.556,
+      "ctimeMs": 1533509590738.2026,
+      "birthtimeMs": 1533106938724.1748,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.725Z",
+      "ctime": "2018-08-05T22:53:10.738Z",
+      "birthtime": "2018-08-01T07:02:18.724Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c7a3077ff337c080b36dbf38c132b7c9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic05.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg",
+      "relativePath": "pic05.jpg",
+      "extension": "jpg",
+      "size": 1861,
+      "prettySize": "1.86 kB",
+      "modifiedTime": "2018-08-01T07:02:18.725Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.743Z",
+      "birthTime": "2018-08-01T07:02:18.725Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "pic05.jpg",
+      "ext": ".jpg",
+      "name": "pic05",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769632,
+      "blocks": 8,
+      "atimeMs": 1533509697059.4954,
+      "mtimeMs": 1533106938725.2253,
+      "ctimeMs": 1533509590742.5366,
+      "birthtimeMs": 1533106938724.9119,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.725Z",
+      "ctime": "2018-08-05T22:53:10.743Z",
+      "birthtime": "2018-08-01T07:02:18.725Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37951df06702766c010a22d9d31e85e9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic06.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg",
+      "relativePath": "pic06.jpg",
+      "extension": "jpg",
+      "size": 9832,
+      "prettySize": "9.83 kB",
+      "modifiedTime": "2018-08-01T07:02:18.726Z",
+      "accessTime": "2018-08-05T22:54:57.060Z",
+      "changeTime": "2018-08-05T22:53:10.732Z",
+      "birthTime": "2018-08-01T07:02:18.726Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "pic06.jpg",
+      "ext": ".jpg",
+      "name": "pic06",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769629,
+      "blocks": 24,
+      "atimeMs": 1533509697059.502,
+      "mtimeMs": 1533106938725.9502,
+      "ctimeMs": 1533509590732.489,
+      "birthtimeMs": 1533106938725.5684,
+      "atime": "2018-08-05T22:54:57.060Z",
+      "mtime": "2018-08-01T07:02:18.726Z",
+      "ctime": "2018-08-05T22:53:10.732Z",
+      "birthtime": "2018-08-01T07:02:18.726Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a79c1e4b6ee359af63593cfcc5a5528",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/header.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg",
+      "relativePath": "header.jpg",
+      "extension": "jpg",
+      "size": 100332,
+      "prettySize": "100 kB",
+      "modifiedTime": "2018-08-01T07:02:18.721Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.764Z",
+      "birthTime": "2018-08-01T07:02:18.720Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "header.jpg",
+      "ext": ".jpg",
+      "name": "header",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769642,
+      "blocks": 200,
+      "atimeMs": 1533509697059.4136,
+      "mtimeMs": 1533106938721.0757,
+      "ctimeMs": 1533509590763.7053,
+      "birthtimeMs": 1533106938720.1968,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-01T07:02:18.721Z",
+      "ctime": "2018-08-05T22:53:10.764Z",
+      "birthtime": "2018-08-01T07:02:18.720Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/altuzarra.png absPath of file",
+      "internal": {
+        "contentDigest": "34641a18d24eae5a2187e8d208862dfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/alex-macqueen.png absPath of file",
+      "internal": {
+        "contentDigest": "06181c0839c1f87d922082dfece7993a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/balenciaga.png absPath of file",
+      "internal": {
+        "contentDigest": "ebd194646595c412e30247783deff813",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/carolina-hererra.png absPath of file",
+      "internal": {
+        "contentDigest": "9b8ccc77e849d084fb9b5db62cbb12db",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/ellie-saab.png absPath of file",
+      "internal": {
+        "contentDigest": "3256d2208e51528db67586c9857c755f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/fedi.png absPath of file",
+      "internal": {
+        "contentDigest": "037af5c7b4d9c9901897f529e842e371",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-1.png absPath of file",
+      "internal": {
+        "contentDigest": "96dd6f078d133e55f54842fa45f76f3e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-2.png absPath of file",
+      "internal": {
+        "contentDigest": "ea7c05eb104d3c5f61a88c5fb4d4eb54",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-3.png absPath of file",
+      "internal": {
+        "contentDigest": "ec1c841f4b7583f721a73dcd0e4621c6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal1-4.png absPath of file",
+      "internal": {
+        "contentDigest": "a4f95be2a04b4fc3905b5065dd400fb7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-1.png absPath of file",
+      "internal": {
+        "contentDigest": "6cb0ae90e4856588de3153f625d405b4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-2.png absPath of file",
+      "internal": {
+        "contentDigest": "214c928ad865cf2152efc845661d0270",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-3.png absPath of file",
+      "internal": {
+        "contentDigest": "4911f1db0a354cfaf5b29a64cff9dafa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-1.png absPath of file",
+      "internal": {
+        "contentDigest": "a927613946cd6fa1c385cfb55c3a6fbb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal2-4.png absPath of file",
+      "internal": {
+        "contentDigest": "f9da98a93a051fe960151c8c03b3ab90",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-2.png absPath of file",
+      "internal": {
+        "contentDigest": "f1b3d6e23a6783d2b9edb3f37955fd55",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-4.png absPath of file",
+      "internal": {
+        "contentDigest": "2e894a25e7f1609aae7b00780c260d98",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gal3-3.png absPath of file",
+      "internal": {
+        "contentDigest": "2f1f4ce5dec78054ed8544d53e42a85a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/giorgo-armani.png absPath of file",
+      "internal": {
+        "contentDigest": "99e92229be586c25940530f20fa54166",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/givenchy.png absPath of file",
+      "internal": {
+        "contentDigest": "d391920d684a444bfa1e3e713c5b7ce9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/gucci.png absPath of file",
+      "internal": {
+        "contentDigest": "9388ceb60afc57d4f79478ed692b2998",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay1.png absPath of file",
+      "internal": {
+        "contentDigest": "b960068458fc2e88f91cd1ae23b9c182",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/overlay2.png absPath of file",
+      "internal": {
+        "contentDigest": "db108b3b0d81ecfab7c9f47f9e490c3c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "6a4b7086fbd8da14f9de2389ba0b7058",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic03.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f4331617feccb90bdf83ab44479f76d6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic02.jpg absPath of file",
+      "internal": {
+        "contentDigest": "401163253acfe21c1c020dfc484c30a0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic04.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0794cb033b83373c2ae7727d150f4eee",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic05.jpg absPath of file",
+      "internal": {
+        "contentDigest": "c7a3077ff337c080b36dbf38c132b7c9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/pic06.jpg absPath of file",
+      "internal": {
+        "contentDigest": "37951df06702766c010a22d9d31e85e9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/header.jpg absPath of file",
+      "internal": {
+        "contentDigest": "9a79c1e4b6ee359af63593cfcc5a5528",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8796888090c7e9ba49b279a53024df26",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/image1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg",
+      "relativePath": "image1.jpg",
+      "extension": "jpg",
+      "size": 463600,
+      "prettySize": "464 kB",
+      "modifiedTime": "2018-08-03T06:49:50.363Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.799Z",
+      "birthTime": "2018-08-03T06:49:50.357Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "image1.jpg",
+      "ext": ".jpg",
+      "name": "image1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769656,
+      "blocks": 912,
+      "atimeMs": 1533509697059.4282,
+      "mtimeMs": 1533278990362.77,
+      "ctimeMs": 1533509590798.5767,
+      "birthtimeMs": 1533278990357.421,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.363Z",
+      "ctime": "2018-08-05T22:53:10.799Z",
+      "birthtime": "2018-08-03T06:49:50.357Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/image1.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8796888090c7e9ba49b279a53024df26",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fc6f4fa9ba14dfd6326d93e17727755b",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/waitlist.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png",
+      "relativePath": "waitlist.png",
+      "extension": "png",
+      "size": 565545,
+      "prettySize": "566 kB",
+      "modifiedTime": "2018-08-03T06:49:50.478Z",
+      "accessTime": "2018-08-05T22:54:57.060Z",
+      "changeTime": "2018-08-05T22:53:10.721Z",
+      "birthTime": "2018-08-03T06:49:50.464Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "waitlist.png",
+      "ext": ".png",
+      "name": "waitlist",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769623,
+      "blocks": 1112,
+      "atimeMs": 1533509697059.5093,
+      "mtimeMs": 1533278990478.4458,
+      "ctimeMs": 1533509590720.9668,
+      "birthtimeMs": 1533278990464.4966,
+      "atime": "2018-08-05T22:54:57.060Z",
+      "mtime": "2018-08-03T06:49:50.478Z",
+      "ctime": "2018-08-05T22:53:10.721Z",
+      "birthtime": "2018-08-03T06:49:50.464Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8728613561fca6686d0476c0ce8fa63d",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/howpage.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg",
+      "relativePath": "howpage.jpg",
+      "extension": "jpg",
+      "size": 698809,
+      "prettySize": "699 kB",
+      "modifiedTime": "2018-08-03T06:49:50.314Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.756Z",
+      "birthTime": "2018-08-03T06:49:50.277Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "howpage.jpg",
+      "ext": ".jpg",
+      "name": "howpage",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769638,
+      "blocks": 1368,
+      "atimeMs": 1533509697059.4207,
+      "mtimeMs": 1533278990314.3044,
+      "ctimeMs": 1533509590756.2493,
+      "birthtimeMs": 1533278990276.5964,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.314Z",
+      "ctime": "2018-08-05T22:53:10.756Z",
+      "birthtime": "2018-08-03T06:49:50.277Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/waitlist.png absPath of file",
+      "internal": {
+        "contentDigest": "fc6f4fa9ba14dfd6326d93e17727755b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "19082b3b43c971a0a15a229b151ce370",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/brands.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg",
+      "relativePath": "brands.jpg",
+      "extension": "jpg",
+      "size": 737639,
+      "prettySize": "738 kB",
+      "modifiedTime": "2018-08-03T06:49:49.569Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.714Z",
+      "birthTime": "2018-08-03T06:49:49.563Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "brands.jpg",
+      "ext": ".jpg",
+      "name": "brands",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769622,
+      "blocks": 1448,
+      "atimeMs": 1533509697059.2764,
+      "mtimeMs": 1533278989568.8604,
+      "ctimeMs": 1533509590713.9768,
+      "birthtimeMs": 1533278989562.601,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.569Z",
+      "ctime": "2018-08-05T22:53:10.714Z",
+      "birthtime": "2018-08-03T06:49:49.563Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/howpage.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8728613561fca6686d0476c0ce8fa63d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/brands.jpg absPath of file",
+      "internal": {
+        "contentDigest": "19082b3b43c971a0a15a229b151ce370",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "587c4d204c1e2eed75954048b103fcf2",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/join-waitlist.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png",
+      "relativePath": "join-waitlist.png",
+      "extension": "png",
+      "size": 1275559,
+      "prettySize": "1.28 MB",
+      "modifiedTime": "2018-08-03T06:49:50.418Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.804Z",
+      "birthTime": "2018-08-03T06:49:50.402Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "join-waitlist.png",
+      "ext": ".png",
+      "name": "join-waitlist",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769658,
+      "blocks": 2496,
+      "atimeMs": 1533509697059.4343,
+      "mtimeMs": 1533278990418.1226,
+      "ctimeMs": 1533509590804.3047,
+      "birthtimeMs": 1533278990402.3193,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:50.418Z",
+      "ctime": "2018-08-05T22:53:10.804Z",
+      "birthtime": "2018-08-03T06:49:50.402Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/join-waitlist.png absPath of file",
+      "internal": {
+        "contentDigest": "587c4d204c1e2eed75954048b103fcf2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png absPath of file": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png absPath of file",
+      "children": [
+        "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "809ab8eb32a9a53c6bf4522b0451c415",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/about-page.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png",
+      "relativePath": "about-page.png",
+      "extension": "png",
+      "size": 1534671,
+      "prettySize": "1.53 MB",
+      "modifiedTime": "2018-08-03T06:49:49.435Z",
+      "accessTime": "2018-08-05T22:54:57.059Z",
+      "changeTime": "2018-08-05T22:53:10.745Z",
+      "birthTime": "2018-08-03T06:49:49.421Z",
+      "root": "/",
+      "dir": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images",
+      "base": "about-page.png",
+      "ext": ".png",
+      "name": "about-page",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4300769634,
+      "blocks": 3000,
+      "atimeMs": 1533509697059.2473,
+      "mtimeMs": 1533278989435.0964,
+      "ctimeMs": 1533509590745.1416,
+      "birthtimeMs": 1533278989421.3325,
+      "atime": "2018-08-05T22:54:57.059Z",
+      "mtime": "2018-08-03T06:49:49.435Z",
+      "ctime": "2018-08-05T22:53:10.745Z",
+      "birthtime": "2018-08-03T06:49:49.421Z"
+    },
+    "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png absPath of file >> ImageSharp": {
+      "id": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/JEZRIEL/Desktop/activ/theslit/src/assets/images/about-page.png absPath of file",
+      "internal": {
+        "contentDigest": "809ab8eb32a9a53c6bf4522b0451c415",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /my-second-post/": {
+      "layout": "index",
+      "jsonName": "my-second-post.json",
+      "internalComponentName": "ComponentMySecondPost",
+      "path": "/my-second-post/",
+      "component": "/Users/JEZRIEL/Desktop/activ/theslit/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/JEZRIEL/Desktop/activ/theslit/src/templates/blog-post.js",
+      "id": "SitePage /my-second-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "78862325baf94502911ec618627904c9",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/JEZRIEL/Desktop/activ/theslit/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/JEZRIEL/Desktop/activ/theslit/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "70e9f4ea0073dc60c6a4a3104f21d1d6",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hi-folks/": {
+      "layout": "index",
+      "jsonName": "hi-folks.json",
+      "internalComponentName": "ComponentHiFolks",
+      "path": "/hi-folks/",
+      "component": "/Users/JEZRIEL/Desktop/activ/theslit/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/JEZRIEL/Desktop/activ/theslit/src/templates/blog-post.js",
+      "id": "SitePage /hi-folks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ba0378361f572fc6b8682be962dda8d4",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/JEZRIEL/Desktop/activ/theslit/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/JEZRIEL/Desktop/activ/theslit/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bcfae0df3d9298d724dec3a9252fbab7",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "8a8576a22d75a436138815980d02501e"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/my-second-post/",
+        "/hello-world/",
+        "/hi-folks/",
+        "/"
+      ],
+      "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": [
+        "/my-second-post/"
+      ],
+      "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world/"
+      ],
+      "/Users/JEZRIEL/Desktop/activ/theslit/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": [
+        "/hi-folks/"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

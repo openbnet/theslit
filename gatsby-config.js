@@ -4,7 +4,7 @@ module.exports = {
     author: "Jez Bajan",
     description: "A Gatsby.js Starter based on Photon by HTML5 UP"
   },
-  pathPrefix: '/',
+  pathPrefix: '/theslit',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
